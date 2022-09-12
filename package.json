@@ -1,0 +1,20 @@
+{
+  "name": "allure-js-cucumber-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "nyc node ./test/runner.js"
+  },
+  "devDependencies": {
+    "allure-js-commons": "^2.0.0-beta.18",
+    "allure-mocha": "^2.0.0-beta.19",
+    "chai": "^4.3.6",
+    "glob": "^8.0.3",
+    "mocha": "^10.0.0",
+    "mocha-multi-reporters": "^1.5.1",
+    "nyc": "^15.1.0",
+    "playwright": "^1.25.1",
+    "rimraf": "^3.0.2"
+  }
+}
